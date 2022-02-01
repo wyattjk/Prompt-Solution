@@ -51,7 +51,7 @@ for name in dictionary:
     #append the temporary list to the final list of table values
     finList.append(tempList)
 
-#displays final list
+#displays matrix of head to head records
 print(tabulate(finList, headers=labels, tablefmt="fancy_grid"))
 
 #closes json file 
