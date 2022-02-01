@@ -26,6 +26,7 @@ for name in dictionary:
 
 #define iteration variable for the following nested for loop
 i = 1
+
 #for loop to iterate through dictionary
 for name in dictionary:
 
@@ -46,8 +47,10 @@ for name in dictionary:
 
     #inserts a '--' into the temporary list to prevent confusion (a team cannot play itself)
     tempList.insert(i, '--')
+    
     #increase iteration variable
     i = i + 1
+    
     #append the temporary list to the final list of table values
     finList.append(tempList)
 
